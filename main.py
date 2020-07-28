@@ -1,6 +1,9 @@
+import datetime
+
 
 def main():
-    pritn("Hello world")
+    print(datetime.datetime.now())
+    print("Hello world")
 
 
 if __name__ == '__main__':
